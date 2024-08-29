@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/poornima005/quadb-todo-list.git/static/css/main.13cc6317.css",
+    "main.js": "/poornima005/quadb-todo-list.git/static/js/main.1210242c.js",
+    "static/js/453.222a983f.chunk.js": "/poornima005/quadb-todo-list.git/static/js/453.222a983f.chunk.js",
+    "static/media/photo.png": "/poornima005/quadb-todo-list.git/static/media/photo.d042d45c6536fd139f1b.png",
+    "index.html": "/poornima005/quadb-todo-list.git/index.html",
+    "main.13cc6317.css.map": "/poornima005/quadb-todo-list.git/static/css/main.13cc6317.css.map",
+    "main.1210242c.js.map": "/poornima005/quadb-todo-list.git/static/js/main.1210242c.js.map",
+    "453.222a983f.chunk.js.map": "/poornima005/quadb-todo-list.git/static/js/453.222a983f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13cc6317.css",
+    "static/js/main.1210242c.js"
+  ]
+}
