@@ -1,0 +1,357 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --background-color: #fff;
+  --background-color1: #EEF6EF;
+  --text-color: #000;
+}
+
+.dark-theme {
+  --primary-color: #ff4500;
+  --secondary-color: #808080;
+  --background-color: #121212;
+  --background-color1: #2C2C2C;
+  --text-color: #fff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.con{
+    width: Fill (1,344px)px;
+height: Hug (56px)px;
+padding: 12px 0px 12px 0px;
+gap: 0px;
+justify: space-between;
+opacity: 0px;
+margin-left: 40px;
+margin-right: 40px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center; /* Aligns the items horizontally */
+  }
+  
+  .menu-icon {
+    margin-right: 10px; /* Adds space between the icon and the logo */
+    cursor: pointer;
+  }
+  
+  .header-logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
+  .header-right {
+    display: flex;
+    gap: 15px; /* Adds space between icons */
+  }
+  /*task creation*/
+  .tc{
+    margin-left: 3%;
+    margin-right: 8%;
+    background-color: var(--background-color);
+    margin-top: 20px;
+  }
+  .taskcreate{
+    width: Fill (1,344px)px;
+    height: Hug (56px)px;
+    padding: 12px 0px 12px 0px;
+    gap: 0px;
+    justify: space-between;
+    opacity: 0px;
+    margin-left: 3%;
+    background: linear-gradient(0deg, rgba(53, 121, 55, 0.1) 0%, rgba(208, 255, 210, 0.1) 100%);
+    margin-right: 70px;
+    margin-top: 40px;
+    
+  }
+  .form-group {
+    margin-bottom: 10px;
+    padding-left: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 90%;
+    padding: 5px;
+    background: rgba(208, 255, 210, 0.1);
+ 
+    border-radius: rgba(208, 255, 210, 0.1)  0x;
+    border: none;
+  }
+  
+  .form-group .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  } 
+  
+  .sub{
+    align-items: right;
+    margin-left: 90%;
+  }
+  button {
+    padding: 5px 10px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-color: darkgreen;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .add-icon {
+    margin-right: 5px;
+    color: #ccc;
+  }
+  
+  .icons {
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+  }
+  .icon{
+    margin-right: 10px;
+    color: var(--text-color);
+  }
+  
+  .checkmark-icon,
+  .alert-icon {
+    margin-left: 5px;
+    cursor: pointer; /* Optional: Make icons clickable */
+  }
+  /*List Item*/
+  .star-icon{
+     float: right;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    background-color: var(--background-color);
+   
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid var(--background-color1);
+    border-radius: 3px;
+    height: 30px;
+  }
+  /* Checkbox styling */
+input[type="checkbox"] {
+  margin-right: 5px;
+  accent-color: #4CAF50; /* Default color (light green) */
+}
+
+/* Change checkbox color when checked */
+input[type="checkbox"]:checked {
+  accent-color: darkgreen; /* Dark green when checked */
+}
+
+  
+  
+  li.completed {
+    background-color: var(--background-color1);
+    text-decoration: line-through;
+  }
+  /*Side Navbar*/
+  .side-navbar {
+  width: 200px; /* Adjust width as needed */
+  background-color: var(--background-color);
+  padding: 20px;
+}
+
+.navbar-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navbar-header img {
+  max-width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.navbar-menu {
+  list-style: none;
+  padding: 0;
+  background-color: var(--background-color);
+}
+
+.navbar-menu li {
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: var(--background-color);
+}
+.navbar-menu ul {
+  background-color: var(--background-color);
+}
+
+.navbar-menu li:hover {
+    background: #35793729;
+
+
+}
+/* Today Tasks */
+.listicon{
+    margin-right: 15px;
+}
+.addlist{
+    height: 50px;
+}
+
+  .today-tasks h2 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .task-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px; /* Adjust space between the text and the circle */
+    background-color: green;
+    border-radius: 50%;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .today-tasks {
+    text-align: left;
+  }
+  
+  .task-circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: conic-gradient(darkgreen 0% 50%, lightgreen 50% 100%);
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .task-circle::before {
+    content: '';
+    position: absolute;
+    width: 80px; /* Adjust this value to control the thickness of the ring */
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--background-color); /* Match the background color to create the ring effect */
+  }
+  
+  .task-circle span {
+    position: absolute;
+    font-size: 16px;
+    color: #000; /* Adjust text color as needed */
+    z-index: 1; /* Ensure the text stays above the inner circle */
+  }
+  .dot1 {
+    width: 10px; /* Width of the dot */
+    height: 10px; /* Height of the dot */
+    background-color: darkgreen; /* Color of the dot */
+    border-radius: 50%; /* Makes the shape circular */
+    margin-right: 10px;
+    display: flex; /* Makes each item a flex container */
+  align-items: center; /* Centers the dot and text vertically */
+  margin-right: 30%; /* Removes default margin */
+  gap: 5px; /* Space between the dot and text */
+
+  }
+  .dot2 {
+    width: 10px; /* Width of the dot */
+    height: 10px; /* Height of the dot */
+    background-color: lightgreen; /* Color of the dot */
+    border-radius: 50%; /* Makes the shape circular */
+    display: flex; /* Makes each item a flex container */
+  align-items: center; /* Centers the dot and text vertically */
+  margin: 0; /* Removes default margin */
+  gap: 5px; /* Space between the dot and text */
+
+  }
+  .status-container {
+    display: flex; /* Aligns items in a row */
+    gap: 20px; /* Adds space between the items */
+    align-items: center; /* Aligns items vertically centered */
+  }
+  
+  
+  .dot {
+    width: 8px; /* Width of the dot */
+    height: 8px; /* Height of the dot */
+    background-color: black; /* Color of the dot */
+    border-radius: 50%; /* Makes the dot circular */
+    margin-left: 6px;
+  }
+  .menu-icon {
+    cursor: pointer; /* Ensure the icon is clickable */
+    z-index: 10; /* Make sure it is above other elements if needed */
+  }
+  /*Right Navbar*/
+  .right-side-navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 300px; /* Adjust the width as needed */
+    height: 100%;
+    background-color: #f0f0f0; /* Change the background color as desired */
+    padding: 20px;
+    display: none; /* Initially hide the side navbar */
+  }
+  
+  .task-item:hover .right-side-navbar {
+    display: block;
+  }
+/* RightSidebar.css */
+/* RightSidebar.css */
+.right-sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background: white;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+.right-sidebar.open {
+  transform: translateX(0);
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sidebar-content {
+  padding: 20px;
+}
+    
+  
+  
